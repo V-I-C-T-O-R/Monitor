@@ -1,0 +1,4 @@
+{
+  "kafka":["table1","table2"],
+  "nginx":["table3","table4"]
+}

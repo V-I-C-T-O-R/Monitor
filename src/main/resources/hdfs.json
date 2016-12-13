@@ -1,0 +1,4 @@
+{
+  "flume":["oldaddress1","newaddress1"],
+  "nginx":["oldaddress2","newaddress2"]
+}

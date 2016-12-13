@@ -1,0 +1,54 @@
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ee the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/data/logs/hadoop/tmp</value>
+        <description>Abase for other temporary directories.</description>
+    </property>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://example:9000</value>
+    </property>
+    <property>
+        <name>fs.trash.interval</name>
+        <value>4320</value>
+    </property>
+    <property>
+        <name>hadoop.proxyuser.dc.groups</name>
+        <value>*</value>
+        <description>Allow the superuser super to impersonate any members of the group group1 and group2</description>
+    </property>
+    <property>
+        <name>hadoop.proxyuser.dc.hosts</name>
+        <value>*</value>
+        <description>The superuser can connect only from host1 and host2 to impersonate a user</description>
+    </property>
+    <property>
+        <name>hadoop.proxyuser.dc.users</name>
+        <value>*</value>
+    </property>
+    <property>
+        <name>io.compression.codecs</name>
+        <value>org.apache.hadoop.io.compress.GzipCodec,org.apache.hadoop.io.compress.DefaultCodec,org.apache.hadoop.io.compress.BZip2Codec,com.hadoop.compression.lzo.LzoCodec,com.hadoop.compression.lzo.LzopCodec</value>
+    </property>
+    <property>
+        <name>io.compression.codec.lzo.class</name>
+        <value>com.hadoop.compression.lzo.LzoCodec</value>
+    </property>
+</configuration>

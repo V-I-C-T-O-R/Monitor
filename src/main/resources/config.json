@@ -1,0 +1,11 @@
+{
+  "datacenter.pool.max": 20,
+  "datacenter.pool.min": 4,
+  "datacenter.job.timeout": 600000,
+  "emailusername": "example@sunteng.com",
+  "emailpassword": "password",
+  "sendaddress":"example@sunteng.com",
+  "azkaban": "@extend:azkabantable.json",
+  "hive": "@extend:hivetable.json",
+  "hdfs": "@extend:hdfs.json"
+}
