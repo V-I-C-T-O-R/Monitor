@@ -1,8 +1,8 @@
-package com.sunteng.monitor.service;
+package com.data.monitor.service;
 
-import com.sunteng.monitor.dao.AzkabanDao;
-import com.sunteng.monitor.model.Azkaban;
-import com.sunteng.monitor.model.Result;
+import com.data.monitor.dao.AzkabanDao;
+import com.data.monitor.model.Azkaban;
+import com.data.monitor.model.Result;
 
 /**
  * Created by Victor on 16-12-5.

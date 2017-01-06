@@ -1,4 +1,4 @@
-package com.sunteng.monitor.model;
+package com.data.monitor.model;
 
 /**
  * Created by Victor on 16-12-22.

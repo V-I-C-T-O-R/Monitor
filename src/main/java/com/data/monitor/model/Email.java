@@ -1,7 +1,7 @@
-package com.sunteng.monitor.model;
+package com.data.monitor.model;
 
-import com.sunteng.monitor.ResultView;
-import com.sunteng.monitor.utils.FileUtil;
+import com.data.monitor.utils.FileUtil;
+import com.data.monitor.ResultView;
 
 import org.apache.log4j.Logger;
 

@@ -1,6 +1,6 @@
-package com.sunteng.monitor;
+package com.data.monitor;
 
-import com.sunteng.monitor.model.QueryResult;
+import com.data.monitor.model.QueryResult;
 
 import java.util.HashMap;
 import java.util.Map;

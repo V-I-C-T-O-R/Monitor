@@ -1,12 +1,12 @@
-package com.sunteng.monitor;
+package com.data.monitor;
 
-import com.sunteng.monitor.model.Email;
-import com.sunteng.monitor.model.QueryResult;
-import com.sunteng.monitor.service.AzkabanService;
-import com.sunteng.monitor.service.HDFSService;
-import com.sunteng.monitor.service.HiveSerivce;
-import com.sunteng.monitor.service.ServiceCenter;
-import com.sunteng.monitor.utils.ToolUtils;
+import com.data.monitor.service.HDFSService;
+import com.data.monitor.utils.ToolUtils;
+import com.data.monitor.model.Email;
+import com.data.monitor.model.QueryResult;
+import com.data.monitor.service.AzkabanService;
+import com.data.monitor.service.HiveSerivce;
+import com.data.monitor.service.ServiceCenter;
 
 import org.apache.log4j.Logger;
 

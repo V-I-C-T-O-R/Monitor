@@ -1,4 +1,4 @@
-package com.sunteng.monitor.dao;
+package com.data.monitor.dao;
 
 import org.apache.commons.dbcp.BasicDataSourceFactory;
 import org.apache.hadoop.conf.Configuration;

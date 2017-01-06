@@ -1,4 +1,4 @@
-package com.sunteng.monitor.model;
+package com.data.monitor.model;
 
 import java.util.HashMap;
 import java.util.Map;

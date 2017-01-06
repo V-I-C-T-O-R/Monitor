@@ -1,7 +1,7 @@
-package com.sunteng.monitor.dao;
+package com.data.monitor.dao;
 
-import com.sunteng.monitor.Config;
-import com.sunteng.monitor.model.HDFS;
+import com.data.monitor.model.HDFS;
+import com.data.monitor.Config;
 
 import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;

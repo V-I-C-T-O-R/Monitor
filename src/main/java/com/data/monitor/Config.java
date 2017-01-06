@@ -1,4 +1,4 @@
-package com.sunteng.monitor;
+package com.data.monitor;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.ObjectMapper;

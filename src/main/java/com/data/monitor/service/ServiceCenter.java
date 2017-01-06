@@ -1,7 +1,7 @@
-package com.sunteng.monitor.service;
+package com.data.monitor.service;
 
-import com.sunteng.monitor.model.Result;
-import com.sunteng.monitor.utils.ToolUtils;
+import com.data.monitor.utils.ToolUtils;
+import com.data.monitor.model.Result;
 
 /**
  * Created by Victor on 16-12-5.

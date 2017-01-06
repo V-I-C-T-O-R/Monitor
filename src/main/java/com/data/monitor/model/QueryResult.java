@@ -1,6 +1,6 @@
-package com.sunteng.monitor.model;
+package com.data.monitor.model;
 
-import com.sunteng.monitor.service.ServiceCenter;
+import com.data.monitor.service.ServiceCenter;
 
 import org.apache.log4j.Logger;
 

@@ -1,13 +1,13 @@
-package com.sunteng.monitor;
+package com.data.monitor;
 
-import com.sunteng.monitor.dao.AzkabanDao;
-import com.sunteng.monitor.model.Azkaban;
-import com.sunteng.monitor.model.HDFS;
-import com.sunteng.monitor.model.Hive;
-import com.sunteng.monitor.model.Message;
-import com.sunteng.monitor.model.QueryResult;
-import com.sunteng.monitor.utils.SendRequest;
-import com.sunteng.monitor.utils.ToolUtils;
+import com.data.monitor.dao.AzkabanDao;
+import com.data.monitor.model.HDFS;
+import com.data.monitor.model.Hive;
+import com.data.monitor.model.Message;
+import com.data.monitor.model.QueryResult;
+import com.data.monitor.utils.SendRequest;
+import com.data.monitor.utils.ToolUtils;
+import com.data.monitor.model.Azkaban;
 
 import net.sf.json.JSONObject;
 

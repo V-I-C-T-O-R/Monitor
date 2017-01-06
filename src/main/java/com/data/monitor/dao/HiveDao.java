@@ -1,7 +1,7 @@
-package com.sunteng.monitor.dao;
+package com.data.monitor.dao;
 
-import com.sunteng.monitor.Config;
-import com.sunteng.monitor.model.Hive;
+import com.data.monitor.Config;
+import com.data.monitor.model.Hive;
 
 import org.apache.log4j.Logger;
 

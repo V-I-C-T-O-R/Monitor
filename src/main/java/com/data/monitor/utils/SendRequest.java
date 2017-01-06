@@ -1,7 +1,7 @@
-package com.sunteng.monitor.utils;
+package com.data.monitor.utils;
 
-import com.sunteng.monitor.Config;
-import com.sunteng.monitor.model.Message;
+import com.data.monitor.Config;
+import com.data.monitor.model.Message;
 
 import net.sf.json.JSONObject;
 
