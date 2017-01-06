@@ -1,11 +1,18 @@
 {
   "datacenter.pool.max": 20,
   "datacenter.pool.min": 4,
-  "datacenter.job.timeout": 600000,
-  "emailusername": "example@sunteng.com",
-  "emailpassword": "password",
-  "sendaddress":"example@sunteng.com",
+  "datacenter.job.timeout": 7200000,
+  "sendto":["example"],
+  "sendsubject":"数据监测",
+  "azkabanusername":"azkaban",
+  "azkabanpassword":"azkaban",
+  "azkabanhostname":"example",
+  "azkabanport":8443,
   "azkaban": "@extend:azkabantable.json",
+  "wechaturl":"example/qywechat/send?sync=1",
+  "mysqlpartitions":3,
+  "tmppath":"/tmp/monitor.txt",
   "hive": "@extend:hivetable.json",
-  "hdfs": "@extend:hdfs.json"
+  "hdfs": "@extend:hdfs.json",
+  "mysql":"@extend:mysqltable.json"
 }

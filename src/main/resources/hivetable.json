@@ -1,4 +1,4 @@
 {
-  "kafka":["table1","table2"],
-  "nginx":["table3","table4"]
+  "kafka":["example1","example2"],
+  "clicki_v4_nginx_log":["example1","example2"]
 }

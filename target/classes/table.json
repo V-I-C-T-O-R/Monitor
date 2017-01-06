@@ -1,0 +1,6 @@
+{
+  "execution_jobs":"project_id, flow_id, job_id, attempt, status, input_params, output_params, start_time, end_time",
+  "execution_flows":"project_id, flow_id, status, submit_user, submit_time, udpate_time, start_time, end_time",
+  "projects":"id, name, active, modified_time, create_time, last_modified_by",
+  "schedules":"project_id, project_name, flow_name, status, first_sched_time, period, last_modify_time, next_exec_time, submit_time, submit_user"
+}

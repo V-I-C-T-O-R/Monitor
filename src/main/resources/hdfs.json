@@ -1,4 +1,4 @@
 {
-  "flume":["oldaddress1","newaddress1"],
-  "nginx":["oldaddress2","newaddress2"]
+  "flume":["/example1","/example2"],
+  "nginx":["/example1","/example2"]
 }
