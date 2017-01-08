@@ -14,5 +14,5 @@ Monitor data for stable of hive,mysql,hdfs etc
 ###使用说明:
 #####直接执行项目打包后的jar文件,并指定天数即可，如：java -jar datamonitor.jar 3。天数的含义为监控前几天的资源状态情况
 ####`须知:`
-1.log4j2显示模式可以自己调节，默认为控制台打印
+1.log4j2显示模式可以自己调节，默认为控制台打印<br>
 2.鉴于隐私性，各种配置文件已经私有化，需要按实际情况配置
